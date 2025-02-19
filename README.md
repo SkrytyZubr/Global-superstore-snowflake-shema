@@ -13,6 +13,7 @@ This project involves the development of a data warehouse following the Snowflak
 
 ### Schema Design
 The data warehouse follows a **Snowflake Schema**, with a central fact table and multiple normalized dimension tables:
+![image](https://github.com/user-attachments/assets/bffd1563-11ac-4e2e-a5da-6283b470f98a)
 
 - **Fact Table:** `factSales`
 - **Dimension Tables:**
@@ -49,16 +50,8 @@ A **multidimensional cube** is built using **SQL Server Analysis Services (SSAS)
 ## Power BI Dashboards
 
 ### Dashboard 1: **Sales Overview**
-- Total revenue, sales trends over time.
-- Top-selling products and categories.
-
 ### Dashboard 2: **Customer & Market Analysis**
-- Sales distribution by region, country, and customer segment.
-- Customer acquisition trends.
-
 ### Dashboard 3: **Order & Shipping Analysis**
-- Shipping duration (`Order Date` vs `Ship Date`).
-- Delays and their impact on customer satisfaction.
 
 ## Deployment
 
