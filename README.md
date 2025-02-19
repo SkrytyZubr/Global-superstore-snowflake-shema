@@ -2,10 +2,12 @@
 
 ## Table of Contents
 - [Project Overview](https://github.com/SkrytyZubr/Global-superstore-snowflake-shema?tab=readme-ov-file#project-overview)
-- [Key Objectives](https://github.com/SkrytyZubr/touristDW?tab=readme-ov-file#key-objectives)
-- [Tools Used](https://github.com/SkrytyZubr/touristDW?tab=readme-ov-file#tools-used)
-- [How to Use the Project](https://github.com/SkrytyZubr/touristDW?tab=readme-ov-file#how-to-use-the-project)
-- [Conclusion](https://github.com/SkrytyZubr/touristDW?tab=readme-ov-filed#conclusion)
+- [Schema Design](https://github.com/SkrytyZubr/Global-superstore-snowflake-shema?tab=readme-ov-file#schema-design)
+- [ETL Process](https://github.com/SkrytyZubr/Global-superstore-snowflake-shema?tab=readme-ov-file#etl-process)
+- [Power BI Dashboards](https://github.com/SkrytyZubr/Global-superstore-snowflake-shema?tab=readme-ov-file#power-bi-dashboards)
+- [Deployment](https://github.com/SkrytyZubr/Global-superstore-snowflake-shema?tab=readme-ov-file#deployment)
+- [How to Use the Project](https://github.com/SkrytyZubr/Global-superstore-snowflake-shema?tab=readme-ov-file#how-to-use-the-project)
+
 ## Project Overview
 This project involves the development of a data warehouse following the Snowflake Schema. The warehouse is built to support business intelligence (BI) analytics and reporting. The ETL process is handled using SQL Server Integration Services (SSIS), and data visualization is performed with Power BI.
 
@@ -116,12 +118,3 @@ A **multidimensional cube** is built using **SQL Server Analysis Services (SSAS)
    - Open the provided Power BI file (.pbix).
    - Update the data source settings to match your database instance.
    - Refresh the data to view the updated visualizations.
-
-## Deployment
-
-### Local Deployment
-- **SQL Server** for data storage
-- **SSIS** for ETL
-- **SSAS** for OLAP Cube
-- **Power BI** for visualization
-
